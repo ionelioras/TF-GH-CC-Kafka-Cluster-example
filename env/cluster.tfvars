@@ -1,15 +1,15 @@
-environment = "env-q26337"
+environment = "env-2rrzpq"
 
 cluster = {
-    display_name = "devops-webinar-standard-cluster"
+    display_name = "tf-standard-cluster"
     availability = "SINGLE_ZONE"
     cloud        = "GCP"
     region       = "europe-west3"
-    type         = "STANDARD"
+    type         = "BASIC"
  }
 
 
 service_account = {
-    name = "CC-WEBINAR"
+    name = "TerraForm_II"
     role = "CloudClusterAdmin"
 }
