@@ -1,7 +1,7 @@
 environment = "env-2rrzpq"
 
 cluster = {
-    display_name = "tf-standard-cluster"
+    display_name = "tf-demo-standard-cluster"
     availability = "SINGLE_ZONE"
     cloud        = "GCP"
     region       = "europe-west3"
